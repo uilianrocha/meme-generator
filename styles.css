@@ -37,4 +37,31 @@ a:hover {
 .content p {
   max-width: 80%;
 }
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px dotted #bfa38a;
+  height: 85vh;
+}
+
+button {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid #bfa38a;
+  background: transparent;
+  color: #bfa38a;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+}
   
